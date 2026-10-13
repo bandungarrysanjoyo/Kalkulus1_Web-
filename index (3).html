@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kalkulus 1 — Materi Presentasi Interaktif</title>
+<style>
+:root{--navy:#1F3A5F;--navy2:#13243d;--gold:#C9A227;--bg:#f4f6fa}
+*{box-sizing:border-box}
+body{margin:0;font-family:Calibri,"Segoe UI",Carlito,Arial,sans-serif;background:var(--bg);color:#222}
+header{background:linear-gradient(135deg,var(--navy2),var(--navy));color:#fff;padding:56px 24px 48px;text-align:center;position:relative;overflow:hidden}
+header:after{content:"";position:absolute;left:0;right:0;bottom:0;height:6px;background:var(--gold)}
+header h1{margin:0 0 10px;font-size:44px;letter-spacing:.5px}
+header h1 span{color:var(--gold)}
+header p{margin:0 auto;max-width:720px;font-size:19px;opacity:.9;line-height:1.4}
+main{max-width:1180px;margin:-28px auto 40px;padding:0 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
+.card{background:#fff;border-radius:14px;box-shadow:0 6px 24px rgba(19,36,61,.12);padding:26px 26px 22px;display:flex;flex-direction:column;position:relative;border-top:5px solid var(--navy);transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(19,36,61,.18)}
+.sym{position:absolute;right:22px;top:16px;font-size:34px;font-weight:700;color:var(--gold);opacity:.55;font-family:"Cambria Math",Cambria,serif}
+.num{font-size:13px;letter-spacing:2px;color:var(--gold);font-weight:700}
+.card h2{margin:4px 0 2px;color:var(--navy);font-size:28px}
+.sub{color:#666;font-size:14px;margin-bottom:10px}
+.card p{margin:0 0 14px;line-height:1.45;font-size:16px;flex:1}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.meta span{background:#eef2f8;color:var(--navy);border-radius:20px;padding:4px 12px;font-size:13.5px;font-weight:700}
+.btn{display:block;text-align:center;background:var(--navy);color:#fff;text-decoration:none;padding:11px;border-radius:8px;font-weight:700;font-size:16px}
+.btn:hover{background:var(--gold);color:var(--navy2)}
+details{margin-top:12px;font-size:14px}
+summary{cursor:pointer;color:var(--navy);font-weight:700}
+details ul{margin:8px 0 0;padding-left:18px;line-height:1.55}
+details a{color:#333;text-decoration:none} details a:hover{color:var(--navy);text-decoration:underline}
+.help{max-width:1180px;margin:0 auto 50px;padding:0 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.help div{background:#fff;border-left:5px solid var(--gold);border-radius:8px;padding:14px 16px;font-size:15px;line-height:1.45}
+.help b{color:var(--navy)}
+footer{text-align:center;color:#666;font-size:14px;padding:18px;border-top:1px solid #dde3ec}
+kbd{background:#eef2f8;border:1px solid #c9d2e0;border-radius:4px;padding:1px 6px;font-family:Consolas,monospace;font-size:13px}
+</style></head><body>
+<header>
+  <h1>Kalkulus <span>1</span></h1>
+  <p>Materi presentasi Bab 2 – 4: Limit &amp; Kekontinuan, Diferensiasi, dan Aplikasi Turunan — lengkap dengan definisi, teorema, contoh soal, soal latihan, dan visualisasi interaktif.</p>
+</header>
+<main>
+<article class="card">
+  <div class="sym">∿</div>
+  <div class="num">BAB 2</div>
+  <h2>Limit dan Kekontinuan</h2>
+  <div class="sub">Sub-bab 2.4 – 2.8</div>
+  <p>Limit intuitif & numerik, teknik menghitung limit, definisi ε–δ, kekontinuan, Teorema Nilai Antara, limit trigonometri</p>
+  <div class="meta"><span>74 slide</span><span>9 visualisasi interaktif</span></div>
+  <a class="btn" href="bab2/index.html">Buka presentasi →</a>
+  <details><summary>Lompat ke slide interaktif</summary><ul><li><a href="bab2/index.html#6">Gagasan Limit: (sin x)/x ketika x → 0</a></li><li><a href="bab2/index.html#9">Jebakan Numerik sin(π/x)</a></li><li><a href="bab2/index.html#13">Limit Kiri, Limit Kanan, dan Eksistensi Limit</a></li><li><a href="bab2/index.html#16">Limit di Tak Hingga dan Asimtot Datar</a></li><li><a href="bab2/index.html#37">Permainan ε–δ</a></li><li><a href="bab2/index.html#47">Tiga Syarat Kekontinuan di x = a</a></li><li><a href="bab2/index.html#58">Teorema Nilai Antara: Metode Bagi Dua</a></li><li><a href="bab2/index.html#65">Teorema Pengapitan</a></li><li><a href="bab2/index.html#67">Mengapa lim (sin h)/h = 1 (Perbandingan Luas)</a></li></ul></details>
+</article>
+<article class="card">
+  <div class="sym">d/dx</div>
+  <div class="num">BAB 3</div>
+  <h2>Diferensiasi</h2>
+  <div class="sub">Sub-bab 3.1 – 3.7</div>
+  <p>Garis singgung & kecepatan, definisi turunan, aturan-aturan turunan, aturan rantai, turunan implisit, diferensial & hampiran linear</p>
+  <div class="meta"><span>81 slide</span><span>6 visualisasi interaktif</span></div>
+  <a class="btn" href="bab3/index.html">Buka presentasi →</a>
+  <details><summary>Lompat ke slide interaktif</summary><ul><li><a href="bab3/index.html#5">Garis Potong Menjadi Garis Singgung</a></li><li><a href="bab3/index.html#7">Kecepatan Rata-rata vs Kecepatan Sesaat</a></li><li><a href="bab3/index.html#19">Membangun Grafik f′ dari Kemiringan Garis Singgung f</a></li><li><a href="bab3/index.html#26">Mengapa |x| Tidak Terdiferensial di 0</a></li><li><a href="bab3/index.html#51">Aturan Rantai sebagai Perkalian Laju</a></li><li><a href="bab3/index.html#72">Diferensial dy vs Pertambahan Δy</a></li></ul></details>
+</article>
+<article class="card">
+  <div class="sym">max</div>
+  <div class="num">BAB 4</div>
+  <h2>Aplikasi Turunan</h2>
+  <div class="sub">Sub-bab 4.1 – 4.8</div>
+  <p>Laju berkaitan, naik/turun & kecekungan, ekstrim relatif, sketsa grafik, ekstrim absolut, optimasi, Teorema Rolle & Nilai Rata-rata</p>
+  <div class="meta"><span>77 slide</span><span>9 visualisasi interaktif</span></div>
+  <a class="btn" href="bab4/index.html">Buka presentasi →</a>
+  <details><summary>Lompat ke slide interaktif</summary><ul><li><a href="bab4/index.html#7">Laju Berkaitan: Lingkaran yang Membesar</a></li><li><a href="bab4/index.html#9">Tangga Tergelincir (x² + y² = 10²)</a></li><li><a href="bab4/index.html#16">Tanda f′ dan Selang Naik/Turun</a></li><li><a href="bab4/index.html#20">Kecekungan dan Titik Belok</a></li><li><a href="bab4/index.html#29">Uji Turunan Pertama &amp; Kedua di Titik Kritis</a></li><li><a href="bab4/index.html#46">Ekstrim Absolut pada Selang Tertutup [a, b]</a></li><li><a href="bab4/index.html#57">Kotak Terbuka dengan Volume Maksimum</a></li><li><a href="bab4/index.html#60">Silinder di Dalam Kerucut (r = 6, h = 10)</a></li><li><a href="bab4/index.html#69">Teorema Rolle &amp; Teorema Nilai Rata-rata</a></li></ul></details>
+</article></main>
+<section class="help">
+  <div><b>Navigasi slide</b><br>Tombol <kbd>←</kbd> <kbd>→</kbd>, <kbd>Spasi</kbd>, atau geser (swipe) di layar sentuh. <kbd>Home</kbd>/<kbd>End</kbd> ke slide pertama/terakhir.</div>
+  <div><b>Daftar slide &amp; layar penuh</b><br>Tombol <kbd>☰</kbd> di kiri bawah membuka daftar isi (slide interaktif berwarna emas); <kbd>⛶</kbd> untuk mode layar penuh.</div>
+  <div><b>Tautan langsung</b><br>Setiap slide punya alamat sendiri, mis. <kbd>bab3/index.html#5</kbd> — mudah dibagikan ke mahasiswa.</div>
+  <div><b>Visualisasi interaktif</b><br>Geser slider, pilih fungsi, atau tekan <kbd>▶ Animasi</kbd>. Semua berjalan di peramban tanpa koneksi internet.</div>
+</section>
+<footer>Kalkulus 1 • Bab 2 – 4 • Tema biru navy &amp; emas • Tanpa dependensi eksternal — dapat dipublikasikan di GitHub Pages, Netlify, atau LMS kampus.</footer>
+</body></html>
